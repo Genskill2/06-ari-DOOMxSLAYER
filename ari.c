@@ -36,46 +36,46 @@ string ari (string s)
   switch(ari)
   {
     case 1:
-      return "Kindergarten\n";
+      return "Kindergarten";
       break;
     case 2:
-      return "First/Second Grade\n";
+      return "First/Second Grade";
       break;
     case 3:
-      return "Third Grade\n";
+      return "Third Grade";
       break;
     case 4:
-      return "Fourth Grade\n";
+      return "Fourth Grade";
       break;
     case 5:
-      return "Fifth Grade\n";
+      return "Fifth Grade";
       break;
     case 6:
-      return "Sixth Grade\n";
+      return "Sixth Grade";
       break;
     case 7:
-      return "Seventh Grade\n";
+      return "Seventh Grade";
       break;
     case 8:
-      return "Eighth Grade\n";
+      return "Eighth Grade";
       break;
     case 9:
-      return "Ninth Grade\n";
+      return "Ninth Grade";
       break;
     case 10:
-      return "Tenth Grade\n";
+      return "Tenth Grade";
       break;
     case 11:
       return "Eleventh Grade";
       break;
     case 12:
-      return "Twelfth Grade\n";
+      return "Twelfth Grade";
       break;
     case 13:
-      return "College Student\n";
+      return "College Student";
       break;
     case 14:
-      return "Professor\n";
+      return "Professor";
       break;
   }
 }
