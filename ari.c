@@ -6,7 +6,7 @@
 
 
 string ari (string s)
-{
+  {
   int ch=0;
   int w=0;
   int sen=0;
