@@ -66,7 +66,7 @@ string ari (string s)
       return "Tenth Grade\n";
       break;
     case 11:
-      return "Eleventh Grade\n";
+      return "Eleventh Grade";
       break;
     case 12:
       return "Twelfth Grade\n";
