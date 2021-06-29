@@ -1,4 +1,9 @@
-string ari (char s[])
+#include <stdio.h>
+#include <assert.h>
+#include <string.h>
+#include <cs50.h>
+
+string ari (string s)
 {
   float ch, w, sen;
   int len;
@@ -9,16 +14,19 @@ string ari (char s[])
       w++;
     if(s[i]=='.'||s[i]=='?'||s[i]=='!')
       sen++;
-    if(isalnum(s[i])
+    if(isalnum(s[i]))
+    {
       ch++;
+    }
   }
   
   int ari;
-  float frac1; frac2;
+  float frac1;
+  float frac2;
   
   frac1=(float)ch/w;
   frac2=(float)w/sen;
-  ari=(4.71&frac1)+(0.5*frac2)-21.43
+  ari=(4.71*frac1)+(0.5*frac2)-21.43;
   ari++;
   switch(ari)
   {
@@ -32,7 +40,7 @@ string ari (char s[])
       printf("Third Grade\n");
       break;
     case 4:
-      printf("Fourth Grade\n")
+      printf("Fourth Grade\n");
       break;
     case 5:
       printf("Fifth Grade\n");
