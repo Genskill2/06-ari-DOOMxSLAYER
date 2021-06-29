@@ -26,7 +26,7 @@ string ari (string s)
       printf("Kindergarten\n");
       break;
     case 2:
-      printf("First/Second Grade\m");
+      printf("First/Second Grade\n");
       break;
     case 3:
       printf("Third Grade\n");
