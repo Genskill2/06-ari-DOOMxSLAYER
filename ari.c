@@ -33,46 +33,46 @@ string ari (string s)
   switch(ari)
   {
     case 1:
-      printf("Kindergarten\n");
+      return "Kindergarten\n";
       break;
     case 2:
-      printf("First/Second Grade\n");
+      return "First/Second Grade\n";
       break;
     case 3:
-      printf("Third Grade\n");
+      return "Third Grade\n";
       break;
     case 4:
-      printf("Fourth Grade\n");
+      return "Fourth Grade\n";
       break;
     case 5:
-      printf("Fifth Grade\n");
+      return "Fifth Grade\n";
       break;
     case 6:
-      printf("Sixth Grade\n");
+      return "Sixth Grade\n";
       break;
     case 7:
-      printf("Seventh Grade\n");
+      return "Seventh Grade\n";
       break;
     case 8:
-      printf("Eighth Grade\n");
+      return "Eighth Grade\n";
       break;
     case 9:
-      printf("Ninth Grade\n");
+      return "Ninth Grade\n";
       break;
     case 10:
-      printf("Tenth Grade\n");
+      return "Tenth Grade\n";
       break;
     case 11:
-      printf("Eleventh Grade\n");
+      return "Eleventh Grade\n";
       break;
     case 12:
-      printf("Twelfth Grade\n");
+      return "Twelfth Grade\n";
       break;
     case 13:
-      printf("College Student\n");
+      return "College Student\n";
       break;
     case 14:
-      printf("Professor\n");
+      return "Professor\n";
       break;
   }
 }
