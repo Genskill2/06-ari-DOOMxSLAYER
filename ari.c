@@ -1,4 +1,4 @@
-str ari (str s)
+string ari (string s)
 {
   float ch, w, sen;
   int len;
