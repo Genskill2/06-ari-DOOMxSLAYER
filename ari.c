@@ -7,8 +7,11 @@
 
 string ari (string s)
 {
-  float ch, w, sen;
+  int ch=0;
+  int w=0;
+  int sen=0;
   int len;
+  
   len=strlen(s);
   for(int i=0;i<=len;i++)
   {
